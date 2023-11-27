@@ -1,7 +1,7 @@
 # CS2 Knife Selector
 Lets you chose a knife in game with !knife command.
 
-##Requirments
+## Requirments
 [CounterStrikeSharp](https://github.com/roflmuffin/CounterStrikeSharp)
 
 ##Features
@@ -9,7 +9,7 @@ Lets you chose a knife in game with !knife command.
 -Checks if user in steam group to use !knife command. (this feature can be disabled in config)
 -Easy to add new knifes after new knife being introduced.
 
-##Known Issues
+## Known Issues
 -Plugin is not working on Windows servers.
 
 Add me on discord to get the plugin: @huesebio
