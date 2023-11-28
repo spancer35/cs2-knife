@@ -9,11 +9,9 @@ Lets you choose and use a knife in game with !knife command.
 - Checks if user member of specified steam group, if not user can't use !knife (this feature can be disabled in config)
 - Easy to add new knifes after new knife being introduced to game.
 - Multiple languages
-
+## Add me on discord to get the plugin: Discord @ **huesebio**
 ## Known Issues
 - Plugin is not working on Windows servers.
-
-Add me on discord to get the plugin: Discord @ **huesebio**
 
 ### **Please note that this is a private plugin.**
 
