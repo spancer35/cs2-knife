@@ -1,5 +1,5 @@
 # CS2 Knife Selector
-Lets you chose a knife in game with !knife command.
+Lets you choose and use a knife in game with !knife command.
 
 ## Requirments
 [CounterStrikeSharp](https://github.com/roflmuffin/CounterStrikeSharp)
@@ -15,7 +15,11 @@ Lets you chose a knife in game with !knife command.
 
 Add me on discord to get the plugin: Discord @ **huesebio**
 
-**Please note that this is a private plugin.**
+### **Please note that this is a private plugin.**
+
+
+### Plugin Configs
+dir: **addons/counterstrikesharp/configs/plugins/KnifeSelector/KnifeSelector.json**
 ```json {
 {
   "server_prefix": "[Server/Clan Name]",
@@ -24,5 +28,22 @@ Add me on discord to get the plugin: Discord @ **huesebio**
   "steam_group_id": "xxxxxxxxxxxxxxxxx",
   "knife_command": "knife",
   "knifelist_command": "knifelist",
+}
+```
+dir: **addons/counterstrikesharp/plugins/KnifeSelector/addons/counterstrikesharp/plugins/KnifeSelector/knifenames.json**
+```json
+{
+    "m9": [ //chat trigger i.e : !knife m9 (can be changed)
+      "weapon_knife_m9_bayonet", // do not change any of these
+      "M9 Bayonet" //display name (can be changed.)
+    ],
+    "karambit": [
+      "weapon_knife_karambit",
+      "Karambit"
+    ],
+    "NewKnifeChatCommand": [
+      "weapon_knife_new_knife",
+      "New Knife"
+    ]
 }
 ```
